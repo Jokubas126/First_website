@@ -479,4 +479,84 @@ textarea {
 
 *:focus {outline: none}
 
+/*------------------------------------------*/
+/* FOOTER */
+/*------------------------------------------*/
 
+footer {
+    background-color: #333;
+    padding: 30px;
+    font-size: 80%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin none;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+    text-decoration: none;
+    border: none;
+    color: #888;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active{
+    color: #ddd;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    font-size: 90%;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+
+
+.social-links li a:link,
+.social-links li a:visited{
+    font-size: 150%;
+}
+
+#logo-facebook,
+#logo-twitter,
+#logo-googleplus,
+#logo-instagram {
+    transition: color 0.2s;
+}
+
+#logo-facebook:hover {
+    color: #3b5998;
+}
+
+#logo-twitter:hover {
+    color: #00aced;
+}
+
+#logo-googleplus:hover {
+    color: #dd4b39;
+}
+
+#logo-instagram:hover {
+    color: #517fa4;
+}
